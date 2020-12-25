@@ -42,6 +42,7 @@ class NetFull(nn.Module):
         x5 = self.log_softmax(x4)
         return x5
 
+    
 class NetConv(nn.Module):
     # two convolutional layers and one fully connected layer,
     # all using relu, followed by log_softmax
